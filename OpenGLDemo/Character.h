@@ -109,8 +109,10 @@ public:
 
     virtual void Render(Renderer& renderer, float deltaTime)
     {
-        //Update animation
+        //Update physics and animation
+        UpdatePosition();
         animation.Update(deltaTime);
+
 
         //Destination of the rectangle is the center so it matches the box2D sensors
         float x = position.x - scale.x * 0.5f;
