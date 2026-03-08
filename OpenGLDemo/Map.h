@@ -29,6 +29,6 @@ private:
     float windowWidth = 0.0f;
     float windowHeight = 0.0f;
 
-    //Reuses load texture
+    //Could have maybe reused the texture loader from animation or made a seperate one
     SDL_Texture* LoadTexture(Renderer& renderer, const std::string& path);
 };
