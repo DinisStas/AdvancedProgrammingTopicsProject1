@@ -1,0 +1,15 @@
+.vs/
+x64/
+glad/
+glm/
+SDL3/
+Debug/
+Release/
+*.user
+*.suo
+*.lib
+*.dll
+*.pdb
+*.exp
+*.ipch
+*.db
